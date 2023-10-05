@@ -24,7 +24,7 @@
 
 <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -36,39 +36,7 @@
 <body>
 
 <div class="page-wrapper">
- 	
-	<!-- Preloader -->
-	<div class="loader-wrap">
-		<div class="preloader">
-			<div class="preloader-close">x</div>
-			<div id="handle-preloader" class="handle-preloader">
-				<div class="animation-preloader">
-					<div class="spinner"></div>
-					<div class="txt-loading">
-						<span data-text-preloader="A" class="letters-loading">
-							A
-						</span>
-						<span data-text-preloader="S" class="letters-loading">
-							S
-						</span>
-						<span data-text-preloader="C" class="letters-loading">
-							C
-						</span>
-						<span data-text-preloader="E" class="letters-loading">
-							E
-						</span>
-						<span data-text-preloader="N" class="letters-loading">
-							N
-						</span>
-						<span data-text-preloader="T" class="letters-loading">
-							T
-						</span>
-					</div>
-				</div>  
-			</div>
-		</div>
-	</div>
-	<!-- Preloader End -->
+
  	
  	<!-- Main Header / Hedare Style Two -->
     <header class="main-header header-style-two">
@@ -146,7 +114,7 @@
 					<div class="outer-box clearfix">
 						
 						<!-- User Box -->
-						<a href="#" class="user-box fas fa-user"></a>
+						<a href="tel:+91 9731609699" class="user-box fas fa-phone"></a>
 					
 						
 						
@@ -245,10 +213,10 @@
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/Source/Contact-us.jpg)">
         <div class="auto-container">
-			<h2>Contact Us</h2>
+			<h2>Contact </h2>
 			<ul class="bread-crumb clearfix">
 				<li><a href="index.html">Home</a></li>
-				<li>Contact Us</li>
+				<li>Contact </li>
 			</ul>
         </div>
     </section>
@@ -265,7 +233,7 @@
 						<div class="content">
 							<span class="icon flaticon-email-3"></span>
 							<h4>Mail address</h4>
-							<a href="#">support@ascentads.in</a>
+							<a href="mailto:support@ascentads.in">support@ascentads.in</a>
 						</div>
 					</div>
 					<div class="inner-box mt-30">
@@ -279,7 +247,7 @@
 						<div class="content">
 							<span class="icon flaticon-telephone"></span>
 							<h4>Phone Number</h4>
-							<a href="#">+91 9731609699</a>
+							<a href="tel:+91 9731609699">+91 9731609699</a>
 						</div>
 					</div>
 				</div>
@@ -305,37 +273,37 @@
 						<h2>Drop Us a Line</h2>
 						<div class="text">Your email address will not be published. Required fields are marked *</div>
 					</div>
-					<form method="post" action="sendemail.php" id="contact-form">
+					<form method="post" action="send.php" id="contact-form">
 						<div class="row clearfix">
 						
 							<!-- Form Group -->
 							<div class="form-group col-lg-6 col-md-6 col-sm-12">
 								<span class="icon flaticon-user-3"></span>
-								<input type="text" name="name" placeholder="Enter your name*">
+								<input type="text" name="name" id="name" placeholder="Enter your name*">
 							</div>
 							
 							<!-- Form Group -->
 							<div class="form-group col-lg-6 col-md-6 col-sm-12">
 								<span class="icon flaticon-email-3"></span>
-								<input type="email" name="email" placeholder="Enter your mail*" >
+								<input type="email" name="email" id="email" placeholder="Enter your mail*" >
 							</div>
 							
 							<!-- Form Group -->
 							<div class="form-group col-lg-6 col-md-6 col-sm-12">
 								<span class="icon flaticon-chat-1"></span>
-								<input type="text" name="services" placeholder="Services*" >
+								<input type="text" name="service"  id="service" placeholder="Services*" >
 							</div>
 							
 							<!-- Form Group -->
 							<div class="form-group col-lg-6 col-md-6 col-sm-12">
 								<span class="icon flaticon-call-2"></span>
-								<input type="text" name="phone" placeholder="Enter Phone Number*" >
+								<input type="text" name="phone" id="phone" placeholder="Enter Phone Number*" >
 							</div>
 							
 							<!-- Form Group -->
 							<div class="form-group col-lg-12 col-md-12 col-sm-12">
 								<span class="icon flaticon-pen"></span>
-								<textarea name="message" placeholder="Enter your Massage*"></textarea>
+								<textarea name="message"  id="message" placeholder="Enter your Massage*"></textarea>
 							</div>
 							
 							<div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -415,7 +383,7 @@
                             <div class="footer-column col-lg-7 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
 									<div class="logo">
-										<a href="index.html"><img src="assets/images/Source/ascent207.png" alt="" title=""></a>
+										<a href="index.html"><img src="assets/images/Source/ascent2071.png" alt="" title=""></a>
 									</div>
 									<h3>About Us</h3>
 									<p style="color: #fff;">At Ascent Ads, we are your partners in the digital realm, dedicated to propelling your brand to new heights</p>
@@ -515,7 +483,9 @@
 				</div>
 			</div>
 		</div>
-		
+		<a href="https://api.whatsapp.com/send?phone=9731609699&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+			<i class="fa fa-whatsapp my-float"></i>
+			</a>
 	</footer>
 	<!-- End Main Footer -->
 	
